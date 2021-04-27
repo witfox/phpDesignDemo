@@ -7,6 +7,8 @@ abstract class Builder
 {
     protected $facebook;
 
+    //定义一系列操作
+    
     abstract  function uploadCampaign();
 
     abstract function uploadAdset();
